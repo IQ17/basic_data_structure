@@ -1,0 +1,23 @@
+﻿Build started 2015/10/12 21:32:37.
+     1>Project "D:\workspace_local\dataStructure\basicDataStructure\hash\hash\hash.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>d:\workspace_local\datastructure\basicdatastructure\hash\hash\hash.h(39): warning C4018: '<' : signed/unsigned mismatch
+                 d:\workspace_local\datastructure\basicdatastructure\hash\hash\hash.h(35) : while compiling class template member function 'hash_table<int>::hash_table(int)'
+                 d:\workspace_local\datastructure\basicdatastructure\hash\hash\main.cpp(7) : see reference to function template instantiation 'hash_table<int>::hash_table(int)' being compiled
+                 d:\workspace_local\datastructure\basicdatastructure\hash\hash\main.cpp(7) : see reference to class template instantiation 'hash_table<int>' being compiled
+     1>d:\workspace_local\datastructure\basicdatastructure\hash\hash\hash.h(49): warning C4018: '<' : signed/unsigned mismatch
+                 d:\workspace_local\datastructure\basicdatastructure\hash\hash\hash.h(48) : while compiling class template member function 'hash_table<int>::~hash_table(void)'
+                 d:\workspace_local\datastructure\basicdatastructure\hash\hash\main.cpp(7) : see reference to function template instantiation 'hash_table<int>::~hash_table(void)' being compiled
+     1>d:\workspace_local\datastructure\basicdatastructure\hash\hash\hash.h(64): warning C4018: '<' : signed/unsigned mismatch
+                 d:\workspace_local\datastructure\basicdatastructure\hash\hash\hash.h(63) : while compiling class template member function 'void hash_table<int>::display(void)'
+                 d:\workspace_local\datastructure\basicdatastructure\hash\hash\main.cpp(13) : see reference to function template instantiation 'void hash_table<int>::display(void)' being compiled
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\workspace_local\dataStructure\basicDataStructure\hash\Debug\hash.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\workspace_local\dataStructure\basicDataStructure\hash\Debug\hash.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\workspace_local\dataStructure\basicDataStructure\hash\Debug\hash.lib" /MACHINE:X86 Debug\main.obj
+         hash.vcxproj -> D:\workspace_local\dataStructure\basicDataStructure\hash\Debug\hash.exe
+     1>Done Building Project "D:\workspace_local\dataStructure\basicDataStructure\hash\hash\hash.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.63

@@ -5,7 +5,7 @@ template<typename T>
 struct node
 {
 	T value;
-	struct node*  privous_ptr;
+	struct node<T>*  privous_ptr;
 };
 
 template<typename T>

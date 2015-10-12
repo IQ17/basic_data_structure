@@ -6,8 +6,8 @@ template<typename T>
 struct node
 {
 	T value;
-	struct node* privous_ptr;
-	struct node* next_ptr;
+	struct node<T>* privous_ptr;
+	struct node<T>* next_ptr;
 };
 
 template<typename T>
